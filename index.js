@@ -1,13 +1,19 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const util = require("util");
-const generatePage = require('./src/page-template');
+const generateReadme = require('./dist/generateReadme')
+const writeFileAsync = util.promisify(fs.writeFile);
 
 const promptUser = () => {
-  console.log(`
-  =================
-  Add a New Project
-  =================
+  console.log(`                                                                          
+  ___ ___ ___ _| |   _____ ___    ___ ___ ___ 
+ |  _| -_| .'| . |  |     | -_|  | . | -_|   |
+ |_| |___|__,|___|  |_|_|_|___|  |_  |___|_|_|
+                                 |___|        
+ 
+  ======================
+  Add A New ReadMe File
+  ======================
   `)
   return inquirer.prompt([
     {
