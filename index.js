@@ -53,9 +53,8 @@ const promptUser = () => {
 
     {
       type: 'input',
-      name: 'about',
+      name: 'usage',
       message: 'What is the project usage for?',
-      when: ({ confirmAbout }) => confirmAbout
     },
 
     {
