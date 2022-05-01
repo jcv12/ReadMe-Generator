@@ -1,47 +1,47 @@
 function generateReadme(answers) {
     return `
-    <h1 align='center'>${answers.name}</h1>
+  <h1 align='center'>${answers.name}</h1>
     
-    ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br />
+  ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br />
     
-    ## Description
-    ${answers.describe}
+  ## Description
+  ${answers.describe}
 
-    ## Table of Contents
-    - [Description](#description)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)
-    - [Contributing](#contributing)
-    - [Tests](#tests)
-    - [Questions](#questions)
+  ## Table of Contents
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
-    ## Installation
-    ${answers.installation}
+  ## Installation
+  ${answers.installation}
 
-    ## Usage
-    ${answers.usage}
+  ## Usage
+  ${answers.usage}
 
-    ## License
-    ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
-    <br />
-    This application is covered by the ${answers.license} license.
+  ## License
+  ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
+  <br />
+  This application is covered by the ${answers.license} license.
 
-    ## Contributing
-    ${answers.contributing}
+  ## Contributing
+  ${answers.contributing}
 
-    ## Tests
-    ${answers.tests}
+  ## Tests
+  ${answers.tests}
 
-    ## Questions
-    ${answers.questions}<br />
-    <br />
-    :octocat: Find me on GitHub: [${answers.username}](https://github.com/${answers.username})<br />
-    <br />
-    Email me with any questions: ${answers.email}<br /><br />
+  ## Questions
+  ${answers.questions}<br />
+  <br />
+  :octocat: Find me on GitHub: [${answers.username}](https://github.com/${answers.username})<br />
+  <br />
+  Email me with any questions: ${answers.email}<br /><br />
 
-    _This README was made by [README-generator](https://github.com/jcv12/ReadMe-Generator)_
-    `;
+  _This README was made by [README-generator](https://github.com/jcv12/ReadMe-Generator)_
+  `;
 }
 
   module.exports = generateReadme;  
