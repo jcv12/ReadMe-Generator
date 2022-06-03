@@ -24,7 +24,7 @@ const promptUser = () => {
         if (projectName) {
           return true;
         } else {
-          console.log('Please enter ypur project title');
+          console.log('Please enter your project title');
           return false;
         }
       }

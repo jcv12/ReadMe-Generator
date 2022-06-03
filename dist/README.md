@@ -1,10 +1,10 @@
 
-  <h1 align='center'>Read Me Generator</h1>
-    
+  <h1 align='center'>refreshr</h1>
+  <img src="https://img.shields.io/github/repo-size/jcv12/ReadME-Generator" />
   ![badge](https://img.shields.io/badge/license-Academic-brightgreen)<br />
     
   ## Description
-  This Node js application prompts users to answer questions that will create a markdown read me file
+  This web application is a MERN Single-page application of an advance E-commerce website of our energy drink company Refreshr. As stated, this application was created using the react as our front end library with the assistance of GraphQL, Node, Express, MongoDB and Heroku to be deployed with real-world data.
 
   ## Table of Contents
   - [Description](#description)
@@ -16,10 +16,10 @@
   - [Questions](#questions)
 
   ## Installation
-  npm install then npm install inquirer
+  No installation is needed as you can just click our deployed link
 
   ## Usage
-  Used for github users who want to make read me files easier
+  The project was used to display our advance knowledge in web development and provide a real world example of our problem solving abilites.
 
   ## License
   ![badge](https://img.shields.io/badge/license-Academic-brightgreen)
@@ -27,17 +27,19 @@
   This application is covered by the Academic license.
 
   ## Contributing
-  John C Vayianos
+  Jared Templeton (Front-end developer) John Vayianos (Front-end developer) Jonathan McDonnell (Back-end developer) Zach Kirsche (Back-end developer)
 
   ## Tests
-  You can view through the walkthrough video
+  No Tests are featured
 
   ## Questions
-  contact me via github or email<br />
+  You can submit an issue, and we will be more than happy to work on it.<br />
   <br />
   :octocat: Find me on GitHub: [jcv12](https://github.com/jcv12)<br />
   <br />
-  Email me with any questions: john.c.vayianos@gmail.com<br /><br />
+  Email me with any questions: jo<br /><br />
 
   _This README was made by [README-generator](https://github.com/jcv12/ReadMe-Generator)_
   
+
+https://img.shields.io/github/issues-closed/{username}/{repo-name}.svg
