@@ -1,5 +1,8 @@
 
-  <h1 align='center'>ReadMe Generator</h1>
+  <h1 align='center'>ReadMe Generator</h1> 
+  
+  ![ReadMe-Generator](https://user-images.githubusercontent.com/95864720/171925601-98f4125d-9028-4bd7-8961-44d3c3636615.png)
+
     
   ![badge](https://img.shields.io/badge/license-Academic-brightgreen)<br />
     
