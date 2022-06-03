@@ -1,8 +1,13 @@
 function generateReadme(answers) {
     return `
   <h1 align='center'>${answers.name}</h1>
-  <img src="https://img.shields.io/github/repo-size/jcv12/ReadMe-Generator" />
-  ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br />
+
+  <p align="center">
+    <img src="https://img.shields.io/github/repo-size/${answers.username}/${answers.reponame}" />
+    <img src="https://img.shields.io/github/issues/${answers.username}/${answers.reponame}" />
+    <img src="https://img.shields.io/github/last-commit/${answers.username}/${answers.reponame}" >
+    <img src="https://img.shields.io/badge/license-${answers.license}-brightgreen" >
+  </p>
     
   ## Description
   ${answers.describe}

@@ -29,7 +29,11 @@ const promptUser = () => {
         }
       }
     },
-
+    {
+      type: 'input',
+      name: 'reponame',
+      message: 'What is the name of the repository'
+    },
     {
       type: 'input',
       name: 'describe',
@@ -43,7 +47,12 @@ const promptUser = () => {
         }
       }
     },
-
+    {
+      type: 'checkbox',
+      name: 'languages',
+      message: 'What did you build this project with? (Check all that apply)',
+      choices: ['JavaScript', 'HTML', 'CSS', 'Express', 'jQuery', 'Bootstrap', 'Node', 'MySQL', 'React', 'NoSQL', 'MongoDB' ]
+    },
     {
       type: 'input',
       name: 'installation',

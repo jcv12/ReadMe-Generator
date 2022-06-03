@@ -1,10 +1,15 @@
 
-  <h1 align='center'>refreshr</h1>
-  <img src="https://img.shields.io/github/repo-size/jcv12/ReadME-Generator" />
-  ![badge](https://img.shields.io/badge/license-Academic-brightgreen)<br />
+  <h1 align='center'>erg</h1>
+
+  <p align="center">
+    <img src="https://img.shields.io/github/repo-size/jcv12/ReadMe-Generator" />
+    <img src="https://img.shields.io/github/issues/jcv12/ReadMe-Generator" />
+    <img src="https://img.shields.io/github/last-commit/jcv12/ReadMe-Generator" >
+    <img src="https://img.shields.io/badge/license-Apache-brightgreen" >
+  </p>
     
   ## Description
-  This web application is a MERN Single-page application of an advance E-commerce website of our energy drink company Refreshr. As stated, this application was created using the react as our front end library with the assistance of GraphQL, Node, Express, MongoDB and Heroku to be deployed with real-world data.
+  sdf
 
   ## Table of Contents
   - [Description](#description)
@@ -16,30 +21,28 @@
   - [Questions](#questions)
 
   ## Installation
-  No installation is needed as you can just click our deployed link
+  sdf
 
   ## Usage
-  The project was used to display our advance knowledge in web development and provide a real world example of our problem solving abilites.
+  sdf
 
   ## License
-  ![badge](https://img.shields.io/badge/license-Academic-brightgreen)
+  ![badge](https://img.shields.io/badge/license-Apache-brightgreen)
   <br />
-  This application is covered by the Academic license.
+  This application is covered by the Apache license.
 
   ## Contributing
-  Jared Templeton (Front-end developer) John Vayianos (Front-end developer) Jonathan McDonnell (Back-end developer) Zach Kirsche (Back-end developer)
+  
 
   ## Tests
-  No Tests are featured
+  
 
   ## Questions
-  You can submit an issue, and we will be more than happy to work on it.<br />
   <br />
-  :octocat: Find me on GitHub: [jcv12](https://github.com/jcv12)<br />
   <br />
-  Email me with any questions: jo<br /><br />
+  Find me on GitHub: [jcv12](https://github.com/jcv12)<br />
+  <br />
+  Email me with any questions: <br /><br />
 
   _This README was made by [README-generator](https://github.com/jcv12/ReadMe-Generator)_
   
-
-https://img.shields.io/github/issues-closed/{username}/{repo-name}.svg
