@@ -5,6 +5,7 @@
     
   ## Description
   This a node js command line prompt program using inquirer to gather information from the user to produce a custom markdown file
+ . My motivation for creating this project was to get practice with Node
 
   ## Table of Contents
   - [Description](#description)
@@ -31,6 +32,12 @@
 
   ## Tests
   yes, look at the walkthrough video
+  
+  
+
+  https://user-images.githubusercontent.com/95864720/168338399-e6336299-4fda-4217-ace8-4b7eb9242874.mp4
+
+
 
   ## Questions
   contact me by github<br />
