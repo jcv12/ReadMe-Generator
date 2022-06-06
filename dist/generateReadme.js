@@ -3,6 +3,10 @@ function generateReadme(answers) {
   <h1 align='center'>${answers.name}</h1>
 
   <p align="center">
+    <img src="">
+  </p>
+
+  <p align="center">
     <img src="https://img.shields.io/github/repo-size/${answers.username}/${answers.reponame}" />
     <img src="https://img.shields.io/github/issues/${answers.username}/${answers.reponame}" />
     <img src="https://img.shields.io/github/last-commit/${answers.username}/${answers.reponame}" >
@@ -37,14 +41,15 @@ function generateReadme(answers) {
   ${answers.contributing}
 
   ## Tests
-  ${answers.tests}
+  <img src="https://img.shields.io/badge/-${answers.TTD}-%23C21325?style=for-the-badge&logo=${answers.TTD}&logoColor=white"
+  The testing platform used for this program was powered by ${answers.TTD} and can be shown in the testing folder.
 
   ## Questions
   ${answers.questions}<br />
   <br />
-  Find me on GitHub: [${answers.username}](https://github.com/${answers.username})<br />
+  :octocat: Find me on GitHub: [${answers.username}](https://github.com/${answers.username})<br />
   <br />
-  Email me with any questions: ${answers.email}<br /><br />
+  :e-mail: Email me with any questions: ${answers.email}<br /><br />
 
   _This README was made by [README-generator](https://github.com/jcv12/ReadMe-Generator)_
   `;

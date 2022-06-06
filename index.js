@@ -54,16 +54,15 @@ const promptUser = () => {
       choices: ['JavaScript', 'HTML', 'CSS', 'Express', 'jQuery', 'Bootstrap', 'Node', 'MySQL', 'React', 'NoSQL', 'MongoDB' ]
     },
     {
-      type: 'checkbox',
+      type: 'input',
       name: 'installation',
       message: 'Describe the installation process of this project if any (Remember to use `` in order to make code appear better).',
-      choices: ['npm install express', 'npm install dotenv', 'npm install sequelize', 'npm install', 'npm install mysql2']
     },
 
     {
       type: 'input',
       name: 'usage',
-      message: 'What is the project usage for?',
+      message: 'What is the project usage for?(Remember to use `` in order to make code appear better).',
     },
 
     {
@@ -86,9 +85,17 @@ const promptUser = () => {
       message: "Who are the contributors of this projects?"
   },
   {
-      type: "input",
-      name: "tests",
-      message: "Is there a test included?"
+    type: 'list',
+    name: 'TTD',
+    message: 'Choose the testing platform for this project(Hit space to select): ',
+    choices: [
+      'jest',
+      'mocha',
+      'testing Library',
+      'jasmine',
+      'cypress',
+      'selenium',
+    ]
   },
   {
       type: "input",
