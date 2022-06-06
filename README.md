@@ -1,14 +1,14 @@
 
   <h1 align='center'>ReadMe Generator</h1> 
+  <p align="center">
+    <img src="https://user-images.githubusercontent.com/95864720/172077503-df1cc1f0-8648-4720-b4ac-8b5722a4bcd3.png"/>
+  </p>
   
-  ![ReadMe-Generator](https://user-images.githubusercontent.com/95864720/171925601-98f4125d-9028-4bd7-8961-44d3c3636615.png)
-
-    
   ![badge](https://img.shields.io/badge/license-Academic-brightgreen)<br />
     
   ## Description
-  This a node js command line prompt program using inquirer to gather information from the user to produce a custom markdown file
- . My motivation for creating this project was to get practice with Node
+  This is a Node.js command line prompt program using inquirer to gather information from the user to produce a custom markdown file
+ . My motivation for creating this project was to practice and show my skills in Node
 
   ## Table of Contents
   - [Description](#description)
