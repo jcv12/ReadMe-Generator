@@ -54,10 +54,10 @@ const promptUser = () => {
       choices: ['JavaScript', 'HTML', 'CSS', 'Express', 'jQuery', 'Bootstrap', 'Node', 'MySQL', 'React', 'NoSQL', 'MongoDB' ]
     },
     {
-      type: 'input',
+      type: 'checkbox',
       name: 'installation',
-      message: 'Describe the installation process of this project if any.',
-      default: true
+      message: 'Describe the installation process of this project if any (Remember to use `` in order to make code appear better).',
+      choices: ['npm install express', 'npm install dotenv', 'npm install sequelize', 'npm install', 'npm install mysql2']
     },
 
     {

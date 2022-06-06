@@ -23,6 +23,7 @@ function generateReadme(answers) {
 
   ## Installation
   ${answers.installation}
+  ${answers.languages.join(', ')}
 
   ## Usage
   ${answers.usage}
