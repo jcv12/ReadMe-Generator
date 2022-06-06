@@ -1,4 +1,3 @@
-
   <h1 align='center'>Read-Me Generator</h1> 
   <p align="center">
     <img src="https://user-images.githubusercontent.com/95864720/172077503-df1cc1f0-8648-4720-b4ac-8b5722a4bcd3.png"/>
@@ -16,6 +15,8 @@
     <img src="https://img.shields.io/badge/moment-blue"  />
     <img src="https://img.shields.io/badge/nodemon-green" />
 </p>
+
+<p align="center"><a href="https://www.buymeacoffee.com/jcv12"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="jcv12" /></a></p><br><br>
     
   ## Description
   This is a Node.js command line prompt program using inquirer to gather information from the user to produce a custom markdown file
