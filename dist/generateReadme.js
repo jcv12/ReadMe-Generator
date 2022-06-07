@@ -27,7 +27,6 @@ function generateReadme(answers) {
 
   ## Installation
   ${answers.installation}
-  ${answers.languages.join(', ')}
 
   ## Usage
   ${answers.usage}
@@ -41,7 +40,7 @@ function generateReadme(answers) {
   ${answers.contributing}
 
   ## Tests
-  <img src="https://img.shields.io/badge/-${answers.TTD}-%23C21325?style=for-the-badge&logo=${answers.TTD}&logoColor=white"
+  <img src="https://img.shields.io/badge/-${answers.TTD}-%23C21325?style=for-the-badge&logo=${answers.TTD}&logoColor=white"/> </br>
   The testing platform used for this program was powered by ${answers.TTD} and can be shown in the testing folder.
 
   ## Questions
