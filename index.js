@@ -48,12 +48,6 @@ const promptUser = () => {
       }
     },
     {
-      type: 'checkbox',
-      name: 'languages',
-      message: 'What did you build this project with? (Check all that apply)',
-      choices: ['JavaScript', 'HTML', 'CSS', 'Express', 'jQuery', 'Bootstrap', 'Node', 'MySQL', 'React', 'NoSQL', 'MongoDB' ]
-    },
-    {
       type: 'input',
       name: 'installation',
       message: 'Describe the installation process of this project if any (Remember to use `` in order to make code appear better).',
@@ -111,9 +105,49 @@ const promptUser = () => {
       type: "input",
       name: "email",
       message: "Please enter your email: "
+  },
+  {
+    type: 'confirm',
+    name: 'confirmDonation',
+    message: 'Would you like to link your "Buy me a coffee"',
+    default: true
+  },
+  {
+    type: 'input',
+    name: 'donation',
+    message: 'what is your "Buy me a coffee" username'
   }
   ]);
-}
+};
+
+const promptTech = techData => {
+  console.log(`
+====================
+Add Technology Used
+====================
+  `);
+
+  if(!techData.technology) {
+    techData.technology = [];
+  }
+  return inquirer
+  .prompt([
+    {
+      type: 'confirm',
+      name: 'confirmLanguages',
+      message: 'What languages did you use in this project?',
+      default: false
+    },
+  ])
+  .then(techData => {
+    techData.technology.push(techData);
+    if (techData.confirmLanguages) {
+      return promptTech(techData);
+    } else {
+      return techData
+    }
+  });
+};
 
 async function init() {
   try {

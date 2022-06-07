@@ -15,6 +15,8 @@ function generateReadme(answers) {
     
   ## Description
   ${answers.describe}
+  This project was built using these languages and libraries:
+  ${answers.tech}
 
   ## Table of Contents
   - [Description](#description)
