@@ -116,37 +116,14 @@ const promptUser = () => {
     type: 'input',
     name: 'donation',
     message: 'what is your "Buy me a coffee" username'
-  }
+  },
+  {
+    type: 'checkbox',
+    name: 'languages',
+    message: 'What did you this project with? (Check all that apply)',
+    choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Express', 'MongoDB', 'MySQL', 'NoSQL', 'React' ]
+  },
   ]);
-};
-
-const promptTech = techData => {
-  console.log(`
-====================
-Add Technology Used
-====================
-  `);
-
-  if(!techData.technology) {
-    techData.technology = [];
-  }
-  return inquirer
-  .prompt([
-    {
-      type: 'confirm',
-      name: 'confirmLanguages',
-      message: 'What languages did you use in this project?',
-      default: false
-    },
-  ])
-  .then(techData => {
-    techData.technology.push(techData);
-    if (techData.confirmLanguages) {
-      return promptTech(techData);
-    } else {
-      return techData
-    }
-  });
 };
 
 async function init() {

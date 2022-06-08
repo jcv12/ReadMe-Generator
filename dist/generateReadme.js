@@ -12,11 +12,13 @@ function generateReadme(answers) {
     <img src="https://img.shields.io/github/last-commit/${answers.username}/${answers.reponame}" >
     <img src="https://img.shields.io/badge/license-${answers.license}-brightgreen" >
   </p>
+
+  <p align="center"><a href="https://www.buymeacoffee.com/${answers.donation}"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="${answers.donation}" /></a></p><br><br>
     
   ## Description
   ${answers.describe}
   This project was built using these languages and libraries:
-  ${answers.tech}
+  ${answers.languages}
 
   ## Table of Contents
   - [Description](#description)
