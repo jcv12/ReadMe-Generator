@@ -4,8 +4,10 @@
   </p>
   
   <p align="center">
+    <img src="https://img.shields.io/github/repo-size/jcv12/ReadMe-Generator" />
     <img src="https://img.shields.io/badge/license-Academic-brightgreen">
     <img src="https://img.shields.io/github/issues/jcv12/ReadMe-Generator.svg">
+    <img src="https://img.shields.io/github/last-commit/jcv12/ReadMe-Generator" >
   </p>
   
   <p align="center">
