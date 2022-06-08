@@ -21,7 +21,9 @@
   This is a Node.js command line prompt program using inquirer to gather information from the user to produce a custom markdown file
  . My motivation for creating this project was to practice and show my skills in Node. The application is designed to create read-me files that look professional and asethetic without having to remember all of the markdown syntax. Users who use this will have to just import there screenshot or video by hand but the program allows for space if the user selects "yes" when prompted.
  
- My original goal of this project was to achieve a good grade in my course. I changed my minnd and decided to create a program that will make creating ReadMe files extremely easy to make for my projects that are both personal and professional
+ My original goal of this project was to achieve a good grade in my course. I changed my mind and decided to create a program that will make creating ReadMe files extremely easy to make for my projects that are both personal and professional
+ 
+ After you create the README file all you will have to do is just import a screenshot or photo into the img tag.
 
   ## Table of Contents
   - [Description](#description)
