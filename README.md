@@ -4,18 +4,16 @@
   </p>
   
   <p align="center">
+    <img src="https://img.shields.io/github/repo-size/jcv12/ReadMe-Generator" />
     <img src="https://img.shields.io/badge/license-Academic-brightgreen">
     <img src="https://img.shields.io/github/issues/jcv12/ReadMe-Generator.svg">
+    <img src="https://img.shields.io/github/last-commit/jcv12/ReadMe-Generator" >
   </p>
   
   <p align="center">
     <img src="https://img.shields.io/badge/javascript-yellow" />
-    <img src="https://img.shields.io/badge/express-orange" />
-    <img src="https://img.shields.io/badge/MongoDB-blue"  />
-    <img src="https://img.shields.io/badge/mongoose-red"  />
-    <img src="https://img.shields.io/badge/moment-blue"  />
-    <img src="https://img.shields.io/badge/nodemon-green" />
-</p>
+    <img src="https://img.shields.io/badge/node.js-green" />
+  </p>
 
 <p align="center"><a href="https://www.buymeacoffee.com/jcv12"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="jcv12" /></a></p><br><br>
     
